@@ -1,0 +1,307 @@
+.comic_buying{
+	background-color:#000000;
+	color: #fff;
+	position:fixed;
+	top:0;
+	left: 0;
+	border:none;
+}
+
+.comic_buying p{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.buy_head{
+	text-align: center;
+	font-size: 0.375rem;
+	margin-bottom: 1.25rem;
+}
+
+.buy_head img{
+	width:30%;
+	/*height: 4.375rem;*/
+	margin-top: 1.5625rem;
+}
+
+/* 漫画正文 底部nav */
+.comic_change_charpeter{
+	width: 100%;
+	position: fixed;
+	bottom: -0.02rem;
+	/*// height: 1.25rem;*/
+	height:1.48rem;
+	background-color: #000;
+}
+
+.comic_change_charpeter ol{
+	height:100%;
+}
+/*//  漫画底部nav 
+// .comic_change_charpeter li{
+// 	width: 33.33%;
+// 	height: 100%;
+	
+// }
+
+
+// .comic_change_charpeter li a{
+// 	display: block;
+// 	height: 100%;
+// 	width: 100%;
+// 	line-height: 1.25rem;
+// 	text-align: center;
+// 	font-size: 0.46875rem;
+// }*/
+
+.comic_change_charpeter li{
+	width: 20%;
+	height: 100%;
+	
+}
+
+.comic_change_charpeter li a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	/*// line-height: 1.25rem;*/
+	text-align: center;
+	font-size:0.28rem;
+	padding-top: 0.2rem;
+	/*// border-right: 0.015625rem solid #fff;*/
+	
+}
+
+/*// .comic_change_charpeter li:last-child a{
+	
+// 	border:none;
+	
+// }
+// .comic_change_charpeter li:last-child a{
+// 	border:none;
+// }
+*/
+.comic_change_charpeter li a i{
+	display: block;
+	margin:0 auto;
+	height:0.62rem;
+	width: 0.62rem;
+	margin-bottom:0.08rem;
+	
+}
+
+.pre-None{ color:gray;}
+.pre-None i{
+	background: url('../img/pre-sel-none.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+.preInit{ color:#fff; }
+.preInit i{
+	background: url('../img/pre-sel.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+
+
+.comic_change_charpeter li:nth-child(2) a i{
+	background: url('../img/detail-sel.png') no-repeat center center;
+	background-size: 100% 100%;
+	
+	
+}
+.comic_change_charpeter li:nth-child(3) a i{
+	background: url('../img/dir-sel.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+.comic_change_charpeter li:nth-child(4) a i{
+	
+}
+
+
+.collectInit{ color:#fff; }
+.collectInit i{
+	background: url('../img/collect-sel.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+.collect-None{ color:gray; }
+.collect-None i{
+    background: url('../img/collect-sel-none.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+
+
+.nextInit{color:#fff; }
+.nextInit i{
+	background: url('../img/next-sel.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+.next-None{ color:gray;}
+.next-None i{
+	background: url('../img/next-sel-none.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+
+
+
+
+.charptercolor{
+	color: #fff;
+}
+/*// .comic_change_charpeter li:nth-child(2) a{
+// 	border-left: 0.015625rem solid #fff;
+// 	border-right:0.015625rem solid #fff;
+// }*/
+.buy_charpter_account{
+	color: #666;
+}
+.buy_charpter_account span{
+	color:#ff5c4d;
+}
+
+
+
+
+/*漫画正文*/
+
+.comic_body{
+	width: 100%;
+	/*margin-top:1.25rem;*/
+}
+
+.comic_body img{
+	width: 100%;
+	display: block;
+	/*margin-bottom:0.03rem;*/
+}
+.comic_body img:last-child{
+	margin-bottom: 0;
+}
+
+
+/*点击加载下一章*/
+.change_comicharpter a{
+	display: block;
+	width: 100%;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	color:#fff;
+	font-size: 0.46875rem;
+	text-align: center;
+	/*background:#3CABDB;*/
+        background: #ff5c4d;
+}
+
+
+.pre_charpter{
+	/*display: none;*/
+	
+}
+
+
+header{
+	position: fixed;
+	top:0;
+}
+
+.ch_price {
+    width:3rem;
+    height:0.6rem;
+    font-size:0.3rem;
+    line-height:0.6rem;
+    position: fixed;
+    bottom: 1.62rem;
+    right:3.2rem;
+    text-align:center;
+    transform: translateX(100%);
+    color: #fff;
+    border-radius: 20px;
+    background: rgba(0,0,0,.7);
+}
+
+
+
+
+
+
+.linkTo{
+	width:50%;
+	position: fixed;
+	right: 0.31rem;
+	top:1.41rem;
+	z-index: 999;
+	text-align: right;
+}
+
+
+.linkTo a{
+	width:0.84rem;
+	height: 0.84rem;
+	display:inline-block;
+	margin: 0.16rem;
+}
+
+
+.linkTo .lonktoListen{
+    background: url('../img/listen@2x.png') no-repeat;
+    background-size: 100% 100%;
+ }
+
+.linkTo .lonktoComic{
+    background: url('../img/caricature@2.png') no-repeat;
+    background-size: 100% 100%;
+ }
+
+
+.linkTo .lonktoNoval{
+      background: url('../img/novel@2x.png') no-repeat;
+    background-size: 100% 100%;
+ }
+
+
+.mask{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	background:rgba(0,0,0,0.5);
+	z-index: 1000;
+	/*display: none;*/
+}
+
+.warn_login{
+	width:7.0rem;
+	height: 3.59375rem;
+	background-color: #fff;
+	border-radius: 0.3125rem;
+	position: fixed;
+	z-index:1500;
+	top:40%;
+	left:50%; 
+	margin-left: -3.5rem;
+	text-align: center;
+	font-size: 0.40625rem;
+	padding-top: 0.9375rem;
+	/*display: none;*/
+}
+
+.warn_login img{
+	position: absolute;
+	top:0.15625rem;
+	right: 0.3125rem;
+	width:0.3125rem;
+	height:0.3125rem;
+}
+
+.warn_login  a{
+	display: block;
+	margin:  0 auto;
+	width:4.921875rem;
+	height:1.09375rem;
+	background-color:#ff5c4d;
+	color:#fff;
+	line-height: 1.09375rem;
+	border-radius:0.15625rem;
+	font-size: 0.46875rem;
+	margin-top: 0.46875rem; 
+}

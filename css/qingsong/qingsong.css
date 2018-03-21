@@ -1,0 +1,141 @@
+
+body,.content{
+	background-color: #fff ;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.divide{
+	height: 0.31rem;
+	background-color: #F7F7F7 ;
+}
+
+
+/*频道*/
+.qsChannel .qstitle{
+	font-size: 0.47rem;
+	margin:0.47rem 0 ;
+	padding: 0 0.47rem;
+
+}
+
+.qsChannel .qsRecomond ul{
+	overflow: hidden;
+	padding: 0 0.47rem ;
+} 
+
+.qsChannel .qsRecomond li{
+	width: 50%;
+	float: left;
+	margin-bottom:0.55rem;
+} 
+
+.qsChannel .qsRecomond li a{
+	display:block;
+	width:100%;
+	padding-right: 0.31rem;
+}
+
+
+.qsChannel .qsRecomond li a img{
+	width:1.25rem;
+	height: 1.62rem;
+	float: left;
+	position: relative;
+	margin-right: 0.31rem;
+	-webkit-box-shadow:0.078125rem 0.078125rem 0.078125rem #e1e1e1;
+	-moz-box-shadow:0.078125rem 0.078125rem 0.078125rem  #e1e1e1;
+	box-shadow: 0.078125rem 0.078125rem 0.078125rem #e1e1e1;
+}
+
+
+.qsChannel .qsRecomond li a .qsBookDes{
+	overflow: hidden;
+	padding: 
+
+}
+
+
+.qsChannel .qsRecomond li a .qsBookDes h2{
+	font-size: 0.38rem;
+	color:#666666;
+	padding:0.16rem 0;
+}
+
+.qsChannel .qsRecomond li a .qsBookDes p{
+	font-size: 0.28rem;
+	color:#999999;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+
+
+
+/*排行*/
+ .qsChannel .ranking_show ol{
+	padding:0 0.47rem 0.55rem;
+	line-height: 0.46875rem;
+}
+.qsChannel .ranking_show ol li{
+	height: 0.46875rem;
+	margin-bottom: 0.46875rem;
+	font-size: 0.40625rem;
+
+}
+.qsChannel .ranking_show ol li:last-child{
+	margin-bottom: 0;
+}
+.qsChannel .ranking_show ol li:last-child{
+	/*padding-bottom: 0.46875rem;*/
+}
+.qsChannel .ranking_show ol li p:nth-child(1){
+	width: 0.46875rem;
+	height: 0.46875rem;
+	background-color: #d9d9d9;
+	border-radius: 50%;
+	margin-right: 0.15625rem;
+	text-align: center;
+	line-height: 0.46875rem;
+}
+.qsChannel .ranking_show ol li p:nth-child(2){
+	width:80%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;;
+}
+.qsChannel .ranking_show ol li img{
+	height: 0.3125rem;
+	margin-top: 0.078125rem;
+}
+.qsChannel .ranking_show ol li a p:nth-child(1){
+	color:#fff;
+}
+ .qsChannel .comprehensive_title{
+	font-size: 0.46875rem;
+	padding:0 0.47rem;
+	margin: 0.47rem 0;
+}
+.qsChannel .ranking_show_detail{
+	/*margin-bottom: 0.3125rem;*/
+	padding-top: 0.03125rem;
+}
+.qsChannel .ranking_show_detail ol li:nth-child(1) p:nth-child(1){
+	background-color: #ff5c4d;
+}
+
+.qsChannel .ranking_show_detail ol li:nth-child(2) p:nth-child(1){
+	background-color: #ffb64d;
+}
+
+.qsChannel .ranking_show_detail ol li:nth-child(3) p:nth-child(1){
+	background-color: #4dd7ff;
+}
+
+.qsChannel .ranking_show_detail ol li a{
+	color:#666;
+}
+
